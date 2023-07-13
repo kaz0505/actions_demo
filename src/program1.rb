@@ -7,7 +7,7 @@ class MyClass
     return "hello, #{@name}"
   end
   def change(name)
-    # not implemented
+    @name = name
   end
 end
 
