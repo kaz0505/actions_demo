@@ -7,7 +7,7 @@ class MyClass
     return "hello, #{@name}"
   end
   def change(name)
-    # @name = name
+    @name = name
   end
 end
 
